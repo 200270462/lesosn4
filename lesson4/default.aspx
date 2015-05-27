@@ -32,8 +32,10 @@
             </asp:DropDownList>
         </div>
         <asp:Button ID="btnCalculate" CssClass="btn-primary" runat="server" Text="Calculate Tip" OnClick="btnCalculate_Click" />
-        <asp:Panel ID="pnlResults" CssClass="" runat="server" Visible="false">
-            <h4>Totals</h4>
+        <asp:Panel ID="pnlResults" CssClass="panle panel-primary" runat="server" Visible="false">
+            <div class="panel-heading">
+                <h4>Totals</h4>
+            </div>
             <div>
                 <label for="lblTip">Tip Amount:</label>
                 <asp:Label ID="lblTip" runat="server" />
